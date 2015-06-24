@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*css默认设置*/
+*{ margin:0; padding:0;}
+ul,ol{ list-style:none;}
+img{ border:none;}
+body{ font-family:"Microsoft YaHei"; font-size:14px; color:#777; background-color:#f6f7f9;}
+.blue{ color:#24c3fd;}
+.gray{ color:#b3b3b3;}
+.black{ color:#4d4d4d;}
+
+/*整体布局*/
+.top { height:28px; background-color:#3d4749;}
+.header{ height:90px; background-color:#900;}
+.banner{ height:170px; background-color:#36C;}
+.arctile{ height:570px; margin-bottom:120px; margin-top:-50px;}
+.footer{ height:140px; background-color:#93C;}
+
+/*居中布局*/
+.con{ width:1000px; margin:0 auto; height:100%;}
+
+.top .con{ background-color:#993;}
+.header .con{ background-color:#0C0;}
+.arctile .con{ background-color:#fff;}
+.footer .con{ background-color:#66C;}
+
+/*内容区域*/
+.bread{ height:50px; background-color:#C60;}
+.side{ width:250px; height:100%; background-color:#066; float:left;}
+.sftools{ width:750px; height:100%; background-color:#30C; float:left;}

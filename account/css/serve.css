@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+
+
+
+.blue{ color:#24c3fd;}
+.blue1{color:#4270a4;}
+.gray{ color:#b3b3b3;}
+.dark{ color:#4d4d4d;}
+.dark1{color:#a4b5c5;}
+.yellow{ color:#d8b300;}
+
+
+/*-------------------------------------------清除默认*/
+
+/*整体布局*/
+.top{ height:89px; background-color:#f7f8fa;}
+.banner{ height:170px; background:url(../../images/images/MIB.png);}
+.acrtile{ height:734px;margin-bottom:120px; margin-top:-50px;}
+.footer{ height:140px; background-color:#525e6a;}
+
+/*居中布局*/
+.con{ width:1000px; margin:0 auto; height:100% }
+
+
+/*acrtile 内容分割布局*/
+.bread{ height:50px; background-color:#fff;}
+.left{ width:250px; float:left; margin-top:20px;}
+.right{ width:748px;height:1000px; float:left; margin-top:20px; border-left:1px solid #eaeaea; border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea;}
+
+/*top 顶部布局*/
+.top h1{ float:left; margin-top:15px; margin-left:15px;}
+.top .link{ float:right;}
+.top .link li{ float:left; width:120px; text-align:center; display:block; border-left:1px dashed #eaeaea; border-right:1px dashed #eaeaea;}
+.top .link .ding{ border-bottom:3px solid #4270a4; color:#4270a4;}
+.top .link li a{ color:#4d4d4d; height:62px; display:block; font-size:18px; padding-top:25px;}
+.top .link li a:hover{ color:#4270a4; border-bottom:3px solid #4270a4;}
+.top .link li span{ display:block; font-size:12px;}
+
+
+/*banner 设置*/
+.banner h1{ text-align:center; padding-top:30px; display:block; color:#FFF; font-size:30px; }
+.banner h1 span{ display:block; font-size:12px;}
+
+/*arctile-bread 面包屑布局*/
+
+.bread-crumb li{ float:left; width:199px; height:50px; line-height:50px; text-align:center; border-left:1px solid #eaeaea; border-bottom:1px solid #eaeaea;}
+.bread-crumb li a{ color:#888; font-size:14px;}
+.bread-crumb li a:hover{color:#4270a4;}
+.bread-crumb .right{ border-right:1px solid #930;}
+
+/*arctile left 左侧布局*/
+.left .aside{ height:465px; width:230px; background-color:#efefef; border:1px solid #eaeaea;}
+.left .aside li{ width:200px; background-color:#efefef; height:60px; line-height:60px; border-bottom:1px solid #e1e3e2; margin-left:15px;}
+.left .aside li a{ color:#888; margin-left:10px;}
+.left .aside li a:hover{ color:#4270a4;}
+.left .aside li a span{ margin-left:10px;}
+.left .aside li img{ vertical-align:middle; margin-left:25px;}
+.left .aside .bottom{ background-color:#e7e7e7;}
+.left .aside .bottom a{ color:#a07d2c; margin-left:15px; text-decoration:underline;}
+.left .aside .ding a{ margin-left:15px;}
+.left .aside .you a{ margin-left:5px;}
+.left .aside .play a{ margin-left:15px;}
+
+/*arctile right 右侧*/
+.right{ height:700px;}
+.right .r{ width:685px;}
+
+/*arctile right-one  导航*/
+.one{ height:50px; margin-left:30px; border-bottom:1px solid #eaeaea;}
+.one h3{ color:#0099bb; font-size:14px; height:50px; line-height:50px; margin-left:40px; font-weight:normal; float:left;}
+.one .ab{ float:right; margin-right:20px;}
+.one .ab li{ float:left; height:50px; line-height:50px; color:#777;}
+.one .ab li a{ color:#777;}
+.one .ab li a:hover{ color:#4270a4;}
+.one .ab .blue a{ color:#24c3fd; text-decoration:underline;}
+
+
+/*arctile right-two  表格*/
+.two table{ margin-left:30px; margin-top:20px;}
+.two table tr{ text-align:center;}
+.two table tr td{ width:170px; color:#777;}
+.two table tr .dark1{ background-color:#b4b2b3; color:#f0f0f0;}
+.two table tr .dark{ background-color:#dad8d9; color:#777;}
+
+/*arctile right-three 页脚*/
+.three table{ margin-left:30px; margin-top:20px;}
+.three table tr .dark1{ background-color:#e8e6e7; color:#999;}
+.three table tr .dark{ background-color:#f1f1f1; color:#999;}
+.three table tr .dark p{ margin-left:50px;}
+.three table tr .dark p #name{ height:70px; width:200px;}
+.three table tr .dark1 p{ margin-left:50px; float:left;}
+.three table tr .dark1 p a:hover{ color:#4270a4;}
+.three table tr .dark1 .long{ color:#24c3fd; float:right; margin-right:90px;}
+.three table tr .dark1 .long a{ color:#24c3fd;}
+.three #uname{ height:25px;}
+.three .sub {border-radius: 10px; background-color:#848283; position: absolute; left: 1206px; top: 777px; width: 64px; height: 24px; 
+z-index: 2; border:none; color:#f0f0f0; margin-top:25px; margin-left:130px; cursor:pointer;}
+
+/*belle 美女*/
+.belle{ float:left;}
+.belle{ float:left; margin-top:-900px; margin-left:-95px;}
+
+
+
+
+
+
+/*footer 页脚布局*/
+
+.footer .con h1{ padding-top:40px; float:left;}
+.footer .con-text{ float:left; padding-top:35px; margin-left:50px;}
+.footer .con-text p{ padding-bottom:5px;color:#a6b6c3; }
+.footer .con-text p a{ color:#a6b6c3; }
+.footer .con-text p a:hover{ color:#24c3fd;}
+.footer .con-text .icon{ background:url(../../images/images/footer.png) no-repeat 160px -1px; height:50px;}
+
+
+
+
+
+
+
+
+
+
+

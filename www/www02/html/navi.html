@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>导航</title>
+<style type="text/css">
+*{ margin:0; padding:0;}/*清除默认距离*/
+img{ border:0;}/*清除默认图片边框*/
+ul,ol{ list-style:none;}/*清除默认列表点*/
+a{ text-decoration:none;}/*清除默认a 的下划线*/
+body{ font-family:"MicroSoft YaHei";}
+
+/*导航样式-----------开始*/
+.nav{ height:90px; width:1000px; margin:0 auto;}
+h1{ float:left; margin-top:15px;}/*左浮动 靠齐父亲（.nav ）的左边*/
+.main-nav{ float:right;}/*右浮动 靠齐父亲（.nav ）的右边*/
+.main-nav li{ float:left; width:120px; text-align:center; margin-top:26px; }/*左浮动 靠齐父亲（.mai-nav ）的左边   margin-top: 元素（li）离别的内容 距离为26*/
+.main-nav li a{ font-size:20px; color:#555;}
+.main-nav li a:hover{ color:#09C;}
+.main-nav span{ font-size:12px;}
+</style>
+</head>
+<body>
+<div class="nav">
+	<h1><a href="#"><img src="../image/logo.png"/></a></h1>
+    <ul class="main-nav">
+    	<li><a href="#">首页<br/><span>HOME</span></a></li>
+        <li><a href="#">账号管理<br/><span>ACCOUNT</span></a></li>
+        <li><a href="#">充值<br/><span>RECHARGE</span></a></li>
+        <li><a href="#">客户服务<br/><span>SERVICE</span></a></li>    	
+    </ul>
+</div>	
+</body>
+</html>

@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+#sub{ border:none;}
+
+.blue{ color:#24c3fd;}
+.blue1{color:#4270a4;}
+.gray{ color:#b3b3b3;}
+.dark{ color:#4d4d4d;}
+.dark1{color:#a4b5c5;}
+.yellow{ color:#d8b300;}
+
+
+/*-------------------------------------------清除默认*/
+
+/*整体布局*/
+.top{ height:89px; background-color:#f7f8fa;}
+.banner{ height:170px; background:;}
+.acrtile{ height:1380px;margin-bottom:120px; margin-top:-50px;}
+.footer{ height:140px; background-color:#525e6a;}
+
+/*居中布局*/
+.con{ width:1000px; margin:0 auto; height:100% }
+
+
+/*acrtile 内容分割布局*/
+.bread{ height:50px; background-color:#fefefe;}
+.left{ width:247px; height:100%; float:left; background-color:#fff;}
+.right{ width:750px; height:100%; float:left; background-color:#fff;}
+
+.img{ height:225px;}
+.one{ height:200px;}
+.two{ height:200px;}
+.three{ height:200px;}
+
+/*top 顶部布局*/
+.top h1{ float:left; margin-top:15px; margin-left:15px;}
+.top .link{ float:right;}
+.top .link li{ float:left; width:120px; text-align:center; display:block; border-left:1px dashed #eaeaea; border-right:1px dashed #eaeaea;}
+.top .link .ding{ border-bottom:3px solid #4270a4; text-decoration:underline; color:#4270a4;}
+.top .link li a{ color:#4d4d4d; height:62px; display:block; font-size:18px; padding-top:25px;}
+.top .link li a:hover{ color:#4270a4; border-bottom:3px solid #4270a4;}
+.top .link li span{ display:block; font-size:12px;}
+
+
+/*banner 设置*/
+.banner h1{ text-align:center; padding-top:30px; display:block; color:#FFF; font-size:30px;}
+.banner h1 span{ display:block; font-size:12px;}
+
+/*arctile-bread 面包屑布局*/
+
+.bread .index{ height:50px; line-height:50px; margin-left:40px; float:left;}
+.bread .index a{ color:#4d4d4d;}
+.bread .index a:hover{ color:#4270a4;}
+.bread .index img{ vertical-align:middle;}
+.bread .block{ float:right;}
+.bread .block li{ float:left; width:120px; text-align:center; border-left:1px solid #eaeaea;}
+.bread .block li a{ color:#4d4d4d; height:50px; line-height:50px;}
+.bread .block .blue{ background-color:#25c4fb;}
+.bread .block .blue a{ color:#fff;}
+.bread .block a:hover{ color:#4270a4;}
+
+
+/*footer 页脚布局*/
+.footer .con h1{ padding-top:40px; float:left;}
+.footer .con-text{ float:left; padding-top:35px; margin-left:50px;}
+.footer .con-text p{ padding-bottom:5px;color:#a6b6c3; }
+.footer .con-text p a{ color:#a6b6c3; }
+.footer .con-text p a:hover{ color:#24c3fd;}
+.footer .con-text .icon{ background:url(../../images/images/footer.png) no-repeat 160px -1px; height:50px;}
+
+
+
+
+
+
+
+
+
+
+
